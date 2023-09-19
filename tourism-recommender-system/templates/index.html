@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tourism Recomendation System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<style>
+    .text-white{
+        color:white
+        }
+</style>
+<body style="background-color:black">
+    <nav class="navbar" style="background-color:red">
+        <a class="navbar-brand">My Place Recommender</a>
+        <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/recommend">Recommend</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-white" style="font-size:50px">Top 20 Places</h1>
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://d3h95ubkn73ryw.cloudfront.net/wp-content/uploads/2013/05/03a.jpg?x48922">
+                        <h3 class="text-white">Blue Lagoon Jogja</h3>
+                        <p class="text-white">City:Yogyakarta</p>
+                        <p class="text-white">Price:10000</p>
+                        <p class="text-white">rating:3.88</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://cdn.medcom.id/images/content/2020/01/25/1105431/wisata-kampung-cina-cibubur-02.jpg
+">
+                        <h3 class="text-white">Candi Sewu</h3>
+                        <p class="text-white">City:Surabaya</p>
+                        <p class="text-white">Price:Free</p>
+                        <p class="text-white">rating:3.97</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://live.staticflickr.com/2632/4155463182_d9737f02bd_b.jpg">
+                        <h3 class="text-white">Freedom Library</h3>
+                        <p class="text-white">City:Jakarta</p>
+                        <p class="text-white">Price:15000</p>
+                        <p class="text-white">rating:3.84</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://live.staticflickr.com/7681/27747829730_014cc8fb10_b.jpg">
+                        <h3 class="text-white">GunungTangkuban perahu</h3>
+                        <p class="text-white">City:Bandung</p>
+                        <p class="text-white">Price:free</p>
+                        <p class="text-white">rating:3.79</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/86/58/ab/1537079738513-largejpg.jpg?w=1200&h=1200&s=1">
+                        <h3 class="text-white">Kampung Batu Malakasari</h3>
+                        <p class="text-white">City:YogyaKarta</p>
+                        <p class="text-white">Price:15000</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRauz7IzoVLg8P6C_l27rEu9whgRR0T5E6-pg&usqp=CAU">
+                        <h3 class="text-white">Monumen Bambu Runcing Surabaya</h3>
+                        <p class="text-white">City:Bandung</p>
+                        <p class="text-white">Price:Free</p>
+                        <p class="text-white">rating:3.70</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://c1.staticflickr.com/1/469/17977091154_c04aff91ca_z.jpg">
+                        <h3 class="text-white">Monumen Palagan Ambarawa</h3>
+                        <p class="text-white">City:YogyaKarta</p>
+                        <p class="text-white">Price:3000</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://i.pinimg.com/originals/62/4e/d1/624ed13a6ccc6ecc2ee094f638bffe37.jpg">
+                        <h1 class="text-white">Museum Nike Ardilla</h1>
+                        <p class="text-white">City:jakarta</p>
+                        <p class="text-white">Price:3500</p>
+                        <p class="text-white">rating:3.8</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/07/shutterstock_424680562.jpg
+">
+                        <h3 class="text-white">Pantai Kesirat</h3>
+                        <p class="text-white">City: Dumbasili</p>
+                        <p class="text-white">votes:30</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://img.jakpost.net/c/2020/08/17/2020_08_17_102545_1597643327._large.jpg">
+                        <h3 class="text-white">Pantai Samas</h3>
+                        <p class="text-white">City: Rinobela</p>
+                        <p class="text-white">votes:30</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://image.cnbcfm.com/api/v1/image/106561427-15…097439576gettyimages-1157936150.jpeg?v=1591097636">
+                        <h3 class="text-white">Pasar Beringharjo</h3>
+                        <p class="text-white">City: Dumbari</p>
+                        <p class="text-white">votes:30</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://static.bangkokpost.com/media/content/20220117/c1_2248875_220117173150.jpg">
+                        <h3 class="text-white">Pasar Kebon Empring Bintaran</h3>
+                        <p class="text-white">City: Yumendi</p>
+                        <p class="text-white">votes:30</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://imgcld.yatra.com/ytimages/image/upload/v1473154691/Koh_Samui_Overview.jpg">
+                        <h4 class="text-white">Pulau Bidadari</h4>
+                        <p class="text-white">City: Dukersla</p>
+                        <p class="text-white">votes:30</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://static.toiimg.com/photo/88863858.cms">
+                        <h4 class="text-white">Saung Angklung Mang Udjo	</h4>
+                        <p class="text-white">City: Lumbasi</p>
+                        <p class="text-white">votes:30</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://adamfayed.com/wp-content/uploads/2022/04/5.jpeg">
+                        <h3 class="text-white">Semarang Chinatown</h3>
+                        <p class="text-white">City:Eastery</p>
+                        <p class="text-white">votes:30</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRjI9HgwKH1QedQLf0bseHkcg__ICUgGMF9Q&usqp=CAU">
+                        <h3 class="text-white">Taman Buah Surabaya</h3>
+                        <p class="text-white">City:Dumbshaa</p>
+                        <p class="text-white">votes:30</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://cdn.getyourguide.com/img/location/5774d9292bf27.jpeg/68.jpg">
+                        <h3 class="text-white">Taman Film</h3>
+                        <p class="text-white">City: Pumbaka</p>
+                        <p class="text-white">votes:30</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1h0zXJokX206lk19o9k69vcvPH3nHA-10mA&usqp=CAU">
+                        <h3 class="text-white">Taman Srigunting</h3>
+                        <p class="text-white">City: Rumsada</p>
+                        <p class="text-white">votes:30</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://www.globalcompliancenews.com/wp-content/uploads/sites/43/2018/05/Fotolia_65943861_S-6.jpg
+">
+                        <h3 class="text-white">Taman Sungai Mudal</h3>
+                        <p class="text-white">City: BAli</p>
+                        <p class="text-white">Price:30</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3" style="margin-top:45px">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-img-top" style="height:150px" src="https://i.natgeofe.com/n/f12e6dc0-3515-45cd-9657-7c0d1a87a512/street-bangkok-thailand.jpg">
+                        <h3 class="text-white">Wisata Eling Bening</h3>
+                        <p class="text-white">City:Coudend</p>
+                        <p class="text-white">Price:3000</p>
+                        <p class="text-white">rating:3.3</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
